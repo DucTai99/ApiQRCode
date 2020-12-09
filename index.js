@@ -12,10 +12,10 @@ app.use(bodyParser.json());
 //config connect db
 let mysql = require('mysql');
 let mysqlConnection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "apiqrcode",
+  host: "erxv1bzckceve5lh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  user: "xdv2njteqk9ela2g",
+  password: "qw8wdp440z83fz5j",
+  database: "p9arvb7u51dr12xv",
   multipleStatements: true
 });
 
