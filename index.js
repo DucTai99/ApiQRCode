@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+//fix
 //config connect db
 let mysql = require('mysql');
 let mysqlConnection = mysql.createConnection({
